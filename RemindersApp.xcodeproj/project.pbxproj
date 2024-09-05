@@ -11,6 +11,7 @@
 		2A47C51B2C88E5D000CA2341 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47C51A2C88E5D000CA2341 /* ContentView.swift */; };
 		2A47C51D2C88E5D100CA2341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A47C51C2C88E5D100CA2341 /* Assets.xcassets */; };
 		2A47C5202C88E5D100CA2341 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A47C51F2C88E5D100CA2341 /* Preview Assets.xcassets */; };
+		2A47C5282C8933C400CA2341 /* CoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47C5272C8933C400CA2341 /* CoreDataProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2A47C51A2C88E5D000CA2341 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2A47C51C2C88E5D100CA2341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A47C51F2C88E5D100CA2341 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A47C5272C8933C400CA2341 /* CoreDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		2A47C5172C88E5D000CA2341 /* RemindersApp */ = {
 			isa = PBXGroup;
 			children = (
+				2A47C5262C89338800CA2341 /* Providers */,
 				2A47C5182C88E5D000CA2341 /* RemindersAppApp.swift */,
 				2A47C51A2C88E5D000CA2341 /* ContentView.swift */,
 				2A47C51C2C88E5D100CA2341 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				2A47C51F2C88E5D100CA2341 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2A47C5262C89338800CA2341 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				2A47C5272C8933C400CA2341 /* CoreDataProvider.swift */,
+			);
+			path = Providers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				2A47C51B2C88E5D000CA2341 /* ContentView.swift in Sources */,
 				2A47C5192C88E5D000CA2341 /* RemindersAppApp.swift in Sources */,
+				2A47C5282C8933C400CA2341 /* CoreDataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
