@@ -24,6 +24,12 @@ struct HomeView: View {
                 NavigationView {
                     AddNewListView { name, color in
                         // Save the list to the local database
+                        // Call reminder service
+                        do {
+                            try ReminderService.saveMyList(name, color)
+                        } catch {
+                            print(error)
+                        }
                     }
                 }
             }
@@ -33,4 +39,5 @@ struct HomeView: View {
 
 #Preview {
     HomeView()
+        .environment(\.managedObjectContext, CoreDataProvider.shared.persistentContainer.viewContext)
 }
