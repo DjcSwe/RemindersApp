@@ -8,14 +8,26 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State private var isPresented: Bool = false
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack{
+            VStack {
+                Text("Hello World")
+                Button {
+                    isPresented = true
+                } label: {
+                    Text("Add List")
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                        .font(.headline)
+                }.padding()
+            }.sheet(isPresented: $isPresented) {
+                NavigationView {
+                    AddNewListView { name, color in
+                        // Save the list to the local database
+                    }
+                }
+            }
         }
-        .padding()
     }
 }
 
