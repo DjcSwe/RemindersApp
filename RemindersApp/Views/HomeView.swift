@@ -8,11 +8,17 @@
 import SwiftUI
 
 struct HomeView: View {
+    
     @State private var isPresented: Bool = false
+    @FetchRequest(sortDescriptors: [])
+    private var myListResults: FetchedResults<MyList>
+    
     var body: some View {
         NavigationStack{
             VStack {
-                Text("Hello World")
+                
+                MyListView(myLists: myListResults)
+
                 Button {
                     isPresented = true
                 } label: {
