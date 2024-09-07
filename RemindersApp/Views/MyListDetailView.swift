@@ -9,19 +9,30 @@ import SwiftUI
 
 struct MyListDetailView: View {
     
+    let myList: MyList
+    
     @State var addOpenReminder: Bool = false
     @State var title: String = ""
+    
+    @FetchRequest(sortDescriptors: [])
+    private var reminderResults: FetchedResults<Reminder>
     
     private var isFormValid: Bool {
         !title.isEmpty
     }
     
-    let myList: MyList
+    init(myList: MyList) {
+        self.myList = myList
+        _reminderResults = FetchRequest(fetchRequest: ReminderService.getRemindersByList(myList: myList))
+    }
+    
+    
     
     var body: some View {
         VStack {
-            // Display list of reminders
-
+            // Display List of Reminders
+            ReminderListView(reminders: reminderResults)
+            
             HStack {
                 Image(systemName: "plus.circle.fill")
                 Button("New Reminder") {

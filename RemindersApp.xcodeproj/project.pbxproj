@@ -23,6 +23,7 @@
 		2A47C53F2C8A846D00CA2341 /* MyListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47C53E2C8A846D00CA2341 /* MyListCellView.swift */; };
 		2A47C5412C8A84C900CA2341 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47C5402C8A84C900CA2341 /* PreviewData.swift */; };
 		2A47C5432C8BB64200CA2341 /* MyListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47C5422C8BB64200CA2341 /* MyListDetailView.swift */; };
+		2A47C5452C8BC4F000CA2341 /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47C5442C8BC4F000CA2341 /* ReminderListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		2A47C53E2C8A846D00CA2341 /* MyListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListCellView.swift; sourceTree = "<group>"; };
 		2A47C5402C8A84C900CA2341 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		2A47C5422C8BB64200CA2341 /* MyListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListDetailView.swift; sourceTree = "<group>"; };
+		2A47C5442C8BC4F000CA2341 /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				2A47C53C2C8A833100CA2341 /* MyListView.swift */,
 				2A47C53E2C8A846D00CA2341 /* MyListCellView.swift */,
 				2A47C5422C8BB64200CA2341 /* MyListDetailView.swift */,
+				2A47C5442C8BC4F000CA2341 /* ReminderListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				2A47C52E2C89448F00CA2341 /* MyList+CoreDataClass.swift in Sources */,
 				2A47C5282C8933C400CA2341 /* CoreDataProvider.swift in Sources */,
 				2A47C53D2C8A833100CA2341 /* MyListView.swift in Sources */,
+				2A47C5452C8BC4F000CA2341 /* ReminderListView.swift in Sources */,
 				2A47C5382C8A250000CA2341 /* ReminderService.swift in Sources */,
 				2A47C5432C8BB64200CA2341 /* MyListDetailView.swift in Sources */,
 			);
