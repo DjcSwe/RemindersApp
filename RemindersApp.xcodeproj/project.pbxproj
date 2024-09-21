@@ -29,6 +29,7 @@
 		2AA484AB2C9F389500CFB154 /* ReminderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA484AA2C9F389500CFB154 /* ReminderDetailView.swift */; };
 		2AA484AE2C9F39E800CFB154 /* ReminderEditConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA484AD2C9F39E800CFB154 /* ReminderEditConfig.swift */; };
 		2AA484B12C9F638A00CFB154 /* CustomOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA484B02C9F638A00CFB154 /* CustomOperators.swift */; };
+		2AA484B52C9F713000CFB154 /* SelectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA484B42C9F713000CFB154 /* SelectListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		2AA484AA2C9F389500CFB154 /* ReminderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailView.swift; sourceTree = "<group>"; };
 		2AA484AD2C9F39E800CFB154 /* ReminderEditConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderEditConfig.swift; sourceTree = "<group>"; };
 		2AA484B02C9F638A00CFB154 /* CustomOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOperators.swift; sourceTree = "<group>"; };
+		2AA484B42C9F713000CFB154 /* SelectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				2A47C5442C8BC4F000CA2341 /* ReminderListView.swift */,
 				2A47C5462C8BD4D300CA2341 /* ReminderCellView.swift */,
 				2AA484AA2C9F389500CFB154 /* ReminderDetailView.swift */,
+				2AA484B42C9F713000CFB154 /* SelectListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				2A47C5302C8944AD00CA2341 /* MyList+CoreDataProperties.swift in Sources */,
 				2A47C5332C89E58D00CA2341 /* AddNewListView.swift in Sources */,
 				2A47C52E2C89448F00CA2341 /* MyList+CoreDataClass.swift in Sources */,
+				2AA484B52C9F713000CFB154 /* SelectListView.swift in Sources */,
 				2A47C5282C8933C400CA2341 /* CoreDataProvider.swift in Sources */,
 				2A47C53D2C8A833100CA2341 /* MyListView.swift in Sources */,
 				2A47C5452C8BC4F000CA2341 /* ReminderListView.swift in Sources */,
